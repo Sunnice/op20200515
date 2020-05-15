@@ -13,10 +13,7 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-git clone https://github.com/fw876/helloworld.git package/helloworld
 git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/koolproxyR
-git clone https://github.com/pymumu/smartdns.git package/smartdns
-git clone https://github.com/Apocalypsor/luci-app-smartdns.git package/luci-app-smartdns
 git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/adguardhome
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
